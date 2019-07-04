@@ -1,2 +1,2 @@
 # java-interface-example
-Interface Orneği
+Interface testi
