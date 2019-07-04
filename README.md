@@ -1,2 +1,2 @@
 # java-interface-example
-Interface testi
+Interface test2
