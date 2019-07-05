@@ -1,4 +1,4 @@
 public interface Geometrik {
 
-    public double alanHesapla();
+    public double hesaplaAlan();
 }

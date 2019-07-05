@@ -1,15 +1,15 @@
-public class dikdortgen implements Geometrik {
+public class Dikdortgen implements Geometrik {
     public double yukseklik;
     public double taban;
 
 
-    public dikdortgen(double yukseklik, double taban) {
+    public Dikdortgen(double yukseklik, double taban) {
         this.taban=taban;
         this.yukseklik=yukseklik;
     }
 
     @Override
-    public double alanHesapla() {
+    public double hesaplaAlan() {
         return yukseklik*taban;
     }
 

@@ -1,13 +1,13 @@
-public class ucgen implements Geometrik {
+public class Ucgen implements Geometrik {
     private double taban;
     private double yukseklik;
-    public ucgen( double taban, double yukseklik) {
+    public Ucgen(double taban, double yukseklik) {
         super();
         this.taban=taban;
         this.yukseklik=yukseklik;
     }
     @Override
-    public double alanHesapla() {
+    public double hesaplaAlan() {
         return (this.yukseklik*this.taban)/2;
     }
     //
