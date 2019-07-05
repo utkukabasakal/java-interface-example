@@ -8,6 +8,7 @@ public class Dikdortgen implements Geometrik {
         this.yukseklik=yukseklik;
     }
 
+
     @Override
     public double hesaplaAlan() {
         return yukseklik*taban;
